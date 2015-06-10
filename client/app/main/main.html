@@ -1,13 +1,15 @@
 <div ng-include="'components/navbar/navbar.html'"></div>
  
 <div class="container">
-  <h1>Main</h1>
+  <h1>Chris Craig - Guitar</h1>
   <div class="row">
     <div class="col-sm-6">
       <div class="panel panel-default">
         <div class="panel-body">
+			<h2>Solo Guitar excerpts</h2>
           <ul>
-            <li ng-repeat="item in list1">{{item.label}}</li>
+			  <li>Coming Soon!</li>
+            <!-- <li ng-repeat="item in list1">{{item.label}}</li> -->
           </ul>
         </div>
       </div>
@@ -16,8 +18,9 @@
     <div class="col-sm-6">
       <div class="panel panel-default">
         <div class="panel-body">
+			<h2>Trio/Group Guitar excerpts</h2>
           <ul>
-            <li ng-repeat="item in list2">{{item.label}}</li>
+            <li ng-repeat="item in trio"><a href="{{item.link}}">{{item.title}} by {{item.groupname}}</li>
           </ul>
         </div>
       </div>

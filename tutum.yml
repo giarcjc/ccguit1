@@ -1,0 +1,5 @@
+web:
+  image: giarcjc/ccguit1
+  autorestart: always
+  ports:
+    - "80:9000"
