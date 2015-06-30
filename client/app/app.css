@@ -2,6 +2,29 @@ body {
   background-color: floralwhite;
 }
 
+p { font-size: 1.3em;}
+
 .navbar-collapse {
   overflow-y: visible;
+}
+
+ul.li {
+ list-style-type: none;
+}
+
+.biopic1 {
+	width: 330px;
+	border: 1px hidden none;
+	float:left;
+	padding:10px;
+	text-align: center;
+}
+
+.biopic2 {
+  width: 330px;
+  border: 1px hidden none;
+  float: right;
+  padding: 10px;
+  text-align: center;
+
 }

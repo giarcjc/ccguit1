@@ -15,7 +15,7 @@ angular.module('app', [
   .run(['$rootScope', '$state', function ($rootScope, $state) {
     'use strict';
     // this is available from all across the app
-    $rootScope.appName = 'app';
+    $rootScope.appName = 'Chris Craig - Guitarist';
  
     // make $state available from templates
     $rootScope.$state = $state;
