@@ -9,11 +9,14 @@ var config = require('./config');
 // Setup server
 var app = express();
 var http = require('http');
+
+
  
 // Express configuration
 require('./config/express')(app);
 // Route configutation
 require('./routes')(app);
+
  
 // Start server
 http.createServer(app).listen(config.port, function () {
