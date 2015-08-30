@@ -7,4 +7,6 @@ angular.module('app')
       templateUrl: 'app/main/main.html', // the template that will load
       controller: 'MainCtrl' // the name of the controller to use
     });
+
+    
   }]);
